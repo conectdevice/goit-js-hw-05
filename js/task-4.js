@@ -1,4 +1,4 @@
-console.log("~ Task 1 ~");
+console.log("~ Task 4 ~");
 
 const getTotalBalanceByGender = (users, gender) =>
   users
