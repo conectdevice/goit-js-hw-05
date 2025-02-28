@@ -2,8 +2,8 @@ console.log("~ Task 4 ~");
 
 const getTotalBalanceByGender = (users, gender) =>
   users
-    .filter(user => user.gender === gender) // Фільтруємо за статтю
-    .reduce((total, user) => total + user.balance, 0); // Підраховуємо баланс
+    .filter(user => user.gender === gender) 
+    .reduce((total, user) => total + user.balance, 0);
 
 const clients = [
 	{
